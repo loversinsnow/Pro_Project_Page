@@ -51,3 +51,7 @@ git push -u origin main
 已完成本地资源与锚点检查、JavaScript 语法与交互逻辑测试、原始文件 SHA-256 校验、camera-ready PDF 文件头与复制一致性检查及视频编码检查。
 
 当前环境无法启动可用的浏览器渲染会话，因此未提供网页截图，也未声称完成桌面/手机真机布局、原生视频播放或 GitHub Pages HTTP 验收。部署后建议检查 390 px 手机和 1440 px 桌面宽度、视频声音/全屏、Paper 下载、结果标签和图示放大。详细记录见交付包外的 `Pro_Project_Page_checks/VALIDATION.md`。
+
+## 当前机构显示
+
+网页作者机构与页脚仅显示清华大学交叉信息研究院，已移除上海期智研究院标识与机构编号。按用户要求，下载的 camera-ready PDF 保持原文件不变，PDF 内作者机构不受本次网页修改影响。
