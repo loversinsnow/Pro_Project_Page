@@ -39,15 +39,15 @@ git push -u origin main
 - `style.css`：响应式布局、紫色主题与减少动画适配。
 - `script.js`：结果标签、键盘导航、图示放大与视频章节定位。
 - `assets/video/PrO-demo.mp4`：完整视频，流复制调整为 fast-start，不重新编码。
-- `assets/paper/PrO.pdf`：使用 gem conda 环境编译的论文副本。
+- `assets/paper/PrO.pdf`：用户提供的 camera-ready PDF 原文件副本。
 - `assets/images/`、`assets/logos/`：本地素材，无外站字体、脚本或图像依赖。
 
 暂无 arXiv、Code、Poster 下载或 BibTeX。将来增加公开链接时直接编辑 HTML。更换 demo 后，如章节时间变化，同步更新 `data-time` 属性；替换论文只需覆盖 `assets/paper/PrO.pdf`。
 
-所有结果来自用户论文。页面中的百分比差异明确写为 percentage points。论文正文与实验结果未编辑；副本只替换作者及机构、采用 preprint 样式去除会议页脚，并设置 PDF 元信息。原始 ZIP / PPTX / MP4 未修改。
+所有结果来自用户论文。页面中的百分比差异明确写为 percentage points。网页论文已替换为用户提供的 camera-ready PDF，按原文件逐字节复制，未编辑其作者、正文或元信息。原始 ZIP / PPTX / MP4 未修改。
 
 ## 验证范围
 
-已完成本地资源与锚点检查、JavaScript 语法与交互逻辑测试、原始文件 SHA-256 校验、论文 PDF 作者/文本/13 页缩略图检查及视频编码检查。
+已完成本地资源与锚点检查、JavaScript 语法与交互逻辑测试、原始文件 SHA-256 校验、camera-ready PDF 文件头与复制一致性检查及视频编码检查。
 
 当前环境无法启动可用的浏览器渲染会话，因此未提供网页截图，也未声称完成桌面/手机真机布局、原生视频播放或 GitHub Pages HTTP 验收。部署后建议检查 390 px 手机和 1440 px 桌面宽度、视频声音/全屏、Paper 下载、结果标签和图示放大。详细记录见交付包外的 `Pro_Project_Page_checks/VALIDATION.md`。

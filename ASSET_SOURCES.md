@@ -8,3 +8,5 @@
 - Visual inspiration: https://wb-wam.github.io/ (research hierarchy, generous spacing and prominent media). Site implementation is newly authored; no third-party site source or research content is copied.
 
 Institutional marks retain their original ownership. This delivery does not assign a new license to research materials or institutional marks.
+
+- Current downloadable paper: user-provided `PrO__Latent_Proprioceptive_Odometry_for_Goal_Reaching_via_Real_World_Reinforcement_Learning_camera_ready.pdf`, copied byte-for-byte to `assets/paper/PrO.pdf`. This supersedes the earlier locally compiled paper; no PDF contents were modified.
